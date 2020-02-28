@@ -2,9 +2,11 @@ require "spec"
 require "./src"
 
 describe "solution" do
-  pending "part_one" do
+  it "part_one" do
+    part_one("abc").should eq "18f47a30"
   end
 
-  pending "part_two" do
+  it "part_two" do
+    part_two("abc").should eq "05ace8e3"
   end
 end

@@ -1,10 +1,31 @@
 require "spec"
 require "./src"
 
+input = <<-TEXT
+eedadn
+drvtee
+eandsr
+raavrd
+atevrs
+tsrnev
+sdttsa
+rasrtv
+nssdts
+ntnada
+svetve
+tesnvt
+vntsnd
+vrdear
+dvrsen
+enarar
+TEXT
+
 describe "solution" do
-  pending "part_one" do
+  it "part_one" do
+    part_one(input).should eq "easter"
   end
 
-  pending "part_two" do
+  it "part_two" do
+    part_two(input).should eq "advent"
   end
 end

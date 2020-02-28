@@ -1,10 +1,19 @@
 require "spec"
 require "./src"
 
+input = <<-TEXT
+ULL
+RRDDD
+LURDL
+UUUUD
+TEXT
+
 describe "solution" do
-  pending "part_one" do
+  it "part_one" do
+    part_one(input).should eq "1985"
   end
 
-  pending "part_two" do
+  it "part_two" do
+    part_two(input).should eq "5DB3"
   end
 end
