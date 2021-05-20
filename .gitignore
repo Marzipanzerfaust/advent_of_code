@@ -1,2 +1,4 @@
+.gitignore
+mkyear.sh
 input
 sln.cr
